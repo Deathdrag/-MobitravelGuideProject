@@ -26,8 +26,8 @@ public class Application extends android.app.Application {
     super.onCreate();
       
           
-    Parse.initialize(this, "MNaXiqV61nqra9rxZMZCmwVNbs3T4yqGHh6F9Qkv",
-        "8D8rJKsDHOWAgExnqDPWCUAQFdgDYQlCXKyaTRTL");
+    Parse.initialize(this, "key",
+        "key");
     preferences = getSharedPreferences("com.parse.anywall", Context.MODE_PRIVATE);
   }
 
